@@ -26,7 +26,7 @@ def SearchStandart(A, B):
     '''
     
     longA = len(A) + len(B) - 1 # Requied length to simulate a dynamic string.
-    # Требуемая длинна для имитации динамической строки
+    # Требуемая длинна для имитации динамической строки 
     Coef = int(math.ceil(longA / len(A))) # Coefficient multiplications. Коэфициент умножения
     localA = A * Coef
 
